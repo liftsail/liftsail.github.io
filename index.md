@@ -69,7 +69,7 @@
 
 |                    Eureka                    |
 | :------------------------------------------: |
-| ![1587887319057](Pictures/1587887319057.png) |
+| ![1587887319057](./Pictures/1587887319057.png) |
 
 
 
@@ -194,7 +194,7 @@ spring:
     name: CUSTOMER
 ```
 
-![1587912052479](Pictures/1587912052479.png)
+![1587912052479](./Pictures/1587912052479.png)
 
 
 
@@ -328,7 +328,7 @@ eureka:  server:    enable-self-preservation: true  # 开启自我保护机制
 
 |                    Robbin                    |
 | :------------------------------------------: |
-| ![1587977965492](Pictures/1587977965492.png) |
+| ![1587977965492](./Pictures/1587977965492.png) |
 
 
 
@@ -518,7 +518,7 @@ eureka:  server:    enable-self-preservation: true  # 开启自我保护机制
 
 |                   Hystrix                    |
 | :------------------------------------------: |
-| ![1588044427589](Pictures/1588044427589.png) |
+| ![1588044427589](./Pictures/1588044427589.png) |
 
 
 
@@ -560,7 +560,7 @@ eureka:  server:    enable-self-preservation: true  # 开启自我保护机制
 
 |                     效果                     |
 | :------------------------------------------: |
-| ![1588048924123](Pictures/1588048924123.png) |
+| ![1588048924123](./Pictures/1588048924123.png) |
 
 
 
@@ -614,7 +614,7 @@ eureka:  server:    enable-self-preservation: true  # 开启自我保护机制
 
 |                    断路器                    |
 | :------------------------------------------: |
-| ![1588075354295](Pictures/1588075354295.png) |
+| ![1588075354295](./Pictures/1588075354295.png) |
 
 
 
@@ -648,7 +648,7 @@ eureka:  server:    enable-self-preservation: true  # 开启自我保护机制
 
 |                   监控界面                   |
 | :------------------------------------------: |
-| ![1588078651357](Pictures/1588078651357.png) |
+| ![1588078651357](./Pictures/1588078651357.png) |
 
 
 
@@ -656,7 +656,7 @@ eureka:  server:    enable-self-preservation: true  # 开启自我保护机制
 
 |                   检测效果                   |
 | :------------------------------------------: |
-| ![1588078701738](Pictures/1588078701738.png) |
+| ![1588078701738](./Pictures/1588078701738.png) |
 
 
 
@@ -693,7 +693,7 @@ eureka:  server:    enable-self-preservation: true  # 开启自我保护机制
 
 |                   请求缓存                   |
 | :------------------------------------------: |
-| ![1588127678866](Pictures/1588127678866.png) |
+| ![1588127678866](./Pictures/1588127678866.png) |
 
 
 
@@ -741,7 +741,7 @@ public Customer findById(@PathVariable Integer id) throws InterruptedException {
 
 > 测试结果
 
-![1588133189886](Pictures/1588133189886.png)
+![1588133189886](./Pictures/1588133189886.png)
 
 
 
@@ -761,7 +761,7 @@ public Customer findById(@PathVariable Integer id) throws InterruptedException {
 
 |                     zuul                     |
 | :------------------------------------------: |
-| ![1588145514669](Pictures/1588145514669.png) |
+| ![1588145514669](./Pictures/1588145514669.png) |
 
 
 
@@ -797,7 +797,7 @@ public Customer findById(@PathVariable Integer id) throws InterruptedException {
 
 |                   测试效果                   |
 | :------------------------------------------: |
-| ![1588148029538](Pictures/1588148029538.png) |
+| ![1588148029538](./Pictures/1588148029538.png) |
 
 
 
@@ -823,7 +823,7 @@ public Customer findById(@PathVariable Integer id) throws InterruptedException {
 
 >  直接访问
 
-![1588157803975](Pictures/1588157803975.png)
+![1588157803975](./Pictures/1588157803975.png)
 
 
 
@@ -873,7 +873,7 @@ version: v1#指定服务的名称spring:  application:    name: CUSTOMER-${versi
 
 |                   测试效果                   |
 | :------------------------------------------: |
-| ![1588165064217](Pictures/1588165064217.png) |
+| ![1588165064217](./Pictures/1588165064217.png) |
 
 
 
@@ -883,7 +883,7 @@ version: v1#指定服务的名称spring:  application:    name: CUSTOMER-${versi
 
 |                    过滤器                    |
 | :------------------------------------------: |
-| ![1588172828199](Pictures/1588172828199.png) |
+| ![1588172828199](./Pictures/1588172828199.png) |
 
 
 
@@ -933,7 +933,7 @@ version: v1#指定服务的名称spring:  application:    name: CUSTOMER-${versi
 
 |                     效果                     |
 | :------------------------------------------: |
-| ![1588175034889](Pictures/1588175034889.png) |
+| ![1588175034889](./Pictures/1588175034889.png) |
 
 
 
@@ -967,7 +967,7 @@ http://localhost/v2/customer/version?token=123
 
 |                     效果                     |
 | :------------------------------------------: |
-| ![1588177367016](Pictures/1588177367016.png) |
+| ![1588177367016](./Pictures/1588177367016.png) |
 
 
 
@@ -993,7 +993,7 @@ http://localhost/v2/customer/version?token=123
 
 |                     效果                     |
 | :------------------------------------------: |
-| ![1588180538336](Pictures/1588180538336.png) |
+| ![1588180538336](./Pictures/1588180538336.png) |
 
 
 
@@ -1019,7 +1019,7 @@ http://localhost/v2/customer/version?token=123
 
 |                     效果                     |
 | :------------------------------------------: |
-| ![1588185307172](Pictures/1588185307172.png) |
+| ![1588185307172](./Pictures/1588185307172.png) |
 
 
 
@@ -1033,7 +1033,7 @@ http://localhost/v2/customer/version?token=123
 
 |                   sidecar                    |
 | :------------------------------------------: |
-| ![1588234895867](Pictures/1588234895867.png) |
+| ![1588234895867](./Pictures/1588234895867.png) |
 
 
 
@@ -1079,7 +1079,7 @@ server:  port: 81# 指定Eureka服务地址eureka:  client:    service-url:     
 
 |                     效果                     |
 | :------------------------------------------: |
-| ![1588237130846](Pictures/1588237130846.png) |
+| ![1588237130846](./Pictures/1588237130846.png) |
 
 
 
@@ -1093,7 +1093,7 @@ server:  port: 81# 指定Eureka服务地址eureka:  client:    service-url:     
 
 |                     效果                     |
 | :------------------------------------------: |
-| ![1588245420362](Pictures/1588245420362.png) |
+| ![1588245420362](./Pictures/1588245420362.png) |
 
 
 
@@ -1191,7 +1191,7 @@ spring:  cloud:    stream:      # 实现手动ACK      rabbit:        bindings: 
 
 |                    config                    |
 | :------------------------------------------: |
-| ![1588257620824](Pictures/1588257620824.png) |
+| ![1588257620824](./Pictures/1588257620824.png) |
 
 
 
@@ -1227,7 +1227,7 @@ spring:  cloud:    config:      server:        git:          basedir: D:\basedir
 
 |                     效果                     |
 | :------------------------------------------: |
-| ![1588260114740](Pictures/1588260114740.png) |
+| ![1588260114740](./Pictures/1588260114740.png) |
 
 
 
@@ -1261,7 +1261,7 @@ spring:  cloud:    config:      server:        git:          basedir: D:\basedir
 
 |                     效果                     |
 | :------------------------------------------: |
-| ![1588263245773](Pictures/1588263245773.png) |
+| ![1588263245773](./Pictures/1588263245773.png) |
 
 
 
@@ -1271,7 +1271,7 @@ spring:  cloud:    config:      server:        git:          basedir: D:\basedir
 
 |                   实现原理                   |
 | :------------------------------------------: |
-| ![1588268131944](Pictures/1588268131944.png) |
+| ![1588268131944](./Pictures/1588268131944.png) |
 
 
 
@@ -1337,7 +1337,7 @@ management:  endpoints:    web:      exposure:        include: "*"
 
 |                   配置隧道                   |
 | :------------------------------------------: |
-| ![1588317871876](Pictures/1588317871876.png) |
+| ![1588317871876](./Pictures/1588317871876.png) |
 
 
 
@@ -1345,7 +1345,7 @@ management:  endpoints:    web:      exposure:        include: "*"
 
 |                  netapp软件                  |
 | :------------------------------------------: |
-| ![1588317944258](Pictures/1588317944258.png) |
+| ![1588317944258](./Pictures/1588317944258.png) |
 
 
 
@@ -1353,7 +1353,7 @@ management:  endpoints:    web:      exposure:        include: "*"
 
 |                     效果                     |
 | :------------------------------------------: |
-| ![1588317929937](Pictures/1588317929937.png) |
+| ![1588317929937](./Pictures/1588317929937.png) |
 
 
 
@@ -1363,7 +1363,7 @@ management:  endpoints:    web:      exposure:        include: "*"
 
 | 配置Gitee中的WebHooks                        |
 | -------------------------------------------- |
-| ![1588319227917](Pictures/1588319227917.png) |
+| ![1588319227917](./Pictures/1588319227917.png) |
 
 
 
@@ -1379,7 +1379,7 @@ management:  endpoints:    web:      exposure:        include: "*"
 
 |                     测试                     |
 | :------------------------------------------: |
-| ![1588319255162](Pictures/1588319255162.png) |
+| ![1588319255162](./Pictures/1588319255162.png) |
 
 
 
@@ -1398,7 +1398,7 @@ management:  endpoints:    web:      exposure:        include: "*"
 
 |                    Sleuth                    |
 | :------------------------------------------: |
-| ![1588325099243](Pictures/1588325099243.png) |
+| ![1588325099243](./Pictures/1588325099243.png) |
 
 
 
@@ -1424,7 +1424,7 @@ logging:  level:    org.springframework.web.servlet.DispatcherServlet: DEBUG
 
 |                   日志信息                   |
 | :------------------------------------------: |
-| ![1588336398785](Pictures/1588336398785.png) |
+| ![1588336398785](./Pictures/1588336398785.png) |
 
 ```
 SEARCH：服务名称e9c：总链路idf07：当前服务的链路idfalse：不会将当前的日志信息，输出其他系统中
@@ -1462,7 +1462,7 @@ version: "3.1"services:  zipkin:   image: daocloud.io/daocloud/zipkin:latest   r
 
 |                     测试                     |
 | :------------------------------------------: |
-| ![1588341969002](Pictures/1588341969002.png) |
+| ![1588341969002](./Pictures/1588341969002.png) |
 
 
 
@@ -1490,7 +1490,7 @@ version: "3.1"services:  zipkin:   image: daocloud.io/daocloud/zipkin:latest   r
 
 |                     测试                     |
 | :------------------------------------------: |
-| ![1588348586217](Pictures/1588348586217.png) |
+| ![1588348586217](./Pictures/1588348586217.png) |
 
 
 
@@ -1510,5 +1510,5 @@ version: "3.1"services:  zipkin:   image: daocloud.io/daocloud/zipkin:latest   r
 
 |                  完整架构图                  |
 | :------------------------------------------: |
-| ![1588351313922](Pictures/1588351313922.png) |
+| ![1588351313922](./Pictures/1588351313922.png) |
 
